@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "b7330065-1e1e-48af-949f-4ed088f07b7b",
-		"name": "Giffgaff-swap-esim_20250223a",
+		"name": "Giffgaff-swap-esim_20250304a",
 		"description": "本脚本可以将GiffGaff的实体SIM卡转换为ESIM，无需借助支持ESIM的手机。\n\n☞[教程](https://azhu.site/posts/1015/)\n\n---\n\n原脚本由 [pwrli](https://www.nodeseek.com/post-76162-1) 大佬提供。由于原脚本中多处API改变了传递参数的方法，原脚本需多处手动操作才能正常使用。为了便利普通使用者，[阿猪](https://azhu.site/)在在原脚本的基础上做了少许修改以适配API的变化。",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "38064588",
@@ -533,12 +533,12 @@
 			},
 			{
 				"key": "clientSecret",
-				"value": "{{vault:authorization-secret}}",
+				"value": "OQv4cfiyol8TvCW4yiLGj0c1AkTR3N2JfRzq7XGqMxk=",
 				"type": "string"
 			},
 			{
 				"key": "clientId",
-				"value": "{{vault:authorization-secret}}",
+				"value": "4a05bf219b3985647d9b9a3ba610a9ce",
 				"type": "string"
 			},
 			{
